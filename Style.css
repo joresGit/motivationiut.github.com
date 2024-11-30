@@ -1,0 +1,81 @@
+/*Les photos d'arriere plan*/
+body {
+    background-image: url(img1.jpg);
+}
+.b1{
+    background-image: url(img2.jpg);
+}
+.b2{
+    background-image: url(img4.jpg);
+}
+.b3{
+    background-image: url(img10.jpg);
+}
+.b4{
+    background-image: url(img7.jpg);
+
+}
+.b5{
+    background-image: url(img9.jpg);
+}
+
+/*Mise en forme*/
+.Acc{
+    text-align: center;
+    font-size: xx-large;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+#Préféré{
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Times New Roman', Times, serif;
+}
+p{
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 30px;
+}
+
+/*contenu de la 1ere page*/
+div{
+    text-align: center;
+    border: rgb(88, 85, 85) solid 10px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+/*pour les boutons suivants*/
+.suiv{
+    text-align: end;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+/*pour les boutons precedents*/
+.préc{
+    text-align: left;
+}
+
+//les groupes de contenu
+
+/*les premieres parties des pages*/
+.b11, .b21, .b31, .b41, .b51{
+    width: 50%;
+    text-align: left;
+    
+}
+
+/*les deuxiemes parties des pages*/
+.b12,.b22, .b32, .b42, .b52{
+    text-align: center;
+    width: 30%;
+    margin: auto;
+}
+
+/*les troisiemes parties des pages*/
+.b13, .b23, .b33, .b43, .b53{
+    text-align: right;
+    margin-left: 70%;
+}
